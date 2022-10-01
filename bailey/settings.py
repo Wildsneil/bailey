@@ -9,7 +9,7 @@ load_dotenv()
 env_path = Path('.')/'.env'
 load_dotenv(dotenv_path=env_path)
 
-SECRET_KEY = os.getenv("SECRET_KEY")
+SECRET_KEY = 'django-insecure-c$taprzz*e1l@w4r%7^=3157ke1xkd1kn64(!4q%0x4!i1u=im'
 
 DEBUG = True
 
