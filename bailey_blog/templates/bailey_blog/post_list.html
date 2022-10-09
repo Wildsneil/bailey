@@ -7,7 +7,7 @@
                 <div class="date">
                     <p>Дата публикации: {{ post.published_date }}</p>
                 </div>
-                <h1><a href="">{{ post.title }}</a></h1>
+                <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
                 <p>Автор: {{ post.author }}</p>
                 <p>{{ post.text|linebreaksbr }}</p>
             </div>
